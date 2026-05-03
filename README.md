@@ -2,7 +2,7 @@
  
 A lightweight JavaScript tool that gathers public physician profile data, normalizes it into one profile per doctor, and displays the result in a static UI.
  
-**[Live demo →](https://your-username.github.io/your-repo-name)**
+**[Live demo →](https://manyapn.github.io/doctor-data)** (Display with seed data, must view locally up-to-date scraped data)
  
 ## Doctors
  
