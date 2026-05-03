@@ -1,0 +1,15 @@
+{
+  "name": "doctor-aggregator-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes doctor profiles from NPI, Healthgrades, Doximity, US News, and Vitals",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "node test.js",
+    "scrape": "node scrape.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "playwright": "^1.45.0"
+  }
+}

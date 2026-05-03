@@ -1,0 +1,116 @@
+{
+  "collected_at": "2026-05-03T12:00:00.000Z",
+  "doctors": [
+    {
+      "id": "golive",
+      "name": "Anjani Golive",
+      "credentials": "MD",
+      "specialty": "Cardiology",
+      "subspecialty": "Interventional Cardiology",
+      "city": "Thousand Oaks",
+      "state": "California",
+      "stateCode": "CA",
+      "education": [
+        { "type": "Residency", "school": "Montefiore Medical Center / Albert Einstein College of Medicine", "location": "New York, NY", "year": null, "source": "Healthgrades" },
+        { "type": "Fellowship", "school": "Ochsner Clinic Foundation, Heart & Vascular Institute", "location": "New Orleans, LA", "year": null, "source": "Healthgrades" },
+        { "type": "Fellowship", "school": "Albert Einstein College of Medicine", "location": "Bronx, NY", "year": null, "source": "Healthgrades" },
+        { "type": "Fellowship", "school": "LAC-USC Los Angeles General Hospital", "location": "Los Angeles, CA", "year": null, "source": "Healthgrades" }
+      ],
+      "experience": {
+        "yearsInPractice": null,
+        "clinicalFocus": "Cardiology, Interventional Cardiology, Advanced Cardiac Imaging, Echocardiography",
+        "affiliation": "Los Robles Regional Medical Center, Thousand Oaks, CA",
+        "credentials": "Board certified in Internal Medicine and Cardiovascular Disease (ABIM)",
+        "summary": "Fellowship-trained cardiologist specializing in noninvasive cardiology, advanced cardiac imaging, and interventional procedures. Experienced in heart transplant support and mechanical circulatory support including LVADs.",
+        "sources": ["Healthgrades", "Doximity"]
+      },
+      "reviews": {
+        "rating": null,
+        "reviewCount": null,
+        "reviewSources": [],
+        "viewMoreUrl": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv",
+        "quotes": []
+      },
+      "sources": [
+        { "name": "Doximity",    "url": "https://www.doximity.com/pub/anjani-golive-md",               "color": "#3b82f6", "status": "200", "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv", "color": "#f59e0b", "status": "200", "error": null },
+        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_Anjani_Golive.html",          "color": "#ef4444", "status": "200", "error": null },
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                               "color": "#8b5cf6", "status": "200", "error": null },
+        { "name": "US News",     "url": "https://health.usnews.com/doctors/anjani-golive-871683",         "color": "#0d9488", "status": "403", "error": "Blocked" }
+      ]
+    },
+    {
+      "id": "marin",
+      "name": "Jose Marin",
+      "credentials": "MD",
+      "specialty": "Family Medicine",
+      "subspecialty": "Primary Care",
+      "city": "El Paso",
+      "state": "Texas",
+      "stateCode": "TX",
+      "education": [
+        { "type": "Medical School", "school": "Universidad Autonoma de Ciudad Juarez", "location": "Ciudad Juarez, Mexico", "year": null, "source": "Healthgrades" },
+        { "type": "Residency", "school": "Mayaguez Medical Center", "location": "Mayaguez, Puerto Rico", "year": null, "source": "Healthgrades" }
+      ],
+      "experience": {
+        "yearsInPractice": 20,
+        "clinicalFocus": "Family Medicine, Primary Care, Diabetes, Hypertension, Kidney Disease",
+        "affiliation": "Transmountain Primary Care / WellMed, El Paso, TX",
+        "credentials": "Board certified in Family Medicine",
+        "summary": "Bilingual family medicine physician in El Paso. Founded Transmountain Primary Care in 2017. Affiliated with Hospitals of Providence and University Medical Center of El Paso.",
+        "sources": ["Healthgrades", "Doximity"]
+      },
+      "reviews": {
+        "rating": null,
+        "reviewCount": null,
+        "reviewSources": [],
+        "viewMoreUrl": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz",
+        "quotes": []
+      },
+      "sources": [
+        { "name": "Doximity",    "url": "https://www.doximity.com/pub/jose-marin-md-151e",           "color": "#3b82f6", "status": "200", "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz", "color": "#f59e0b", "status": "200", "error": null },
+        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_Jose_Marin.html",          "color": "#ef4444", "status": "200", "error": null },
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                            "color": "#8b5cf6", "status": "200", "error": null },
+        { "name": "US News",     "url": "https://health.usnews.com/doctors/jose-marin-1010190",       "color": "#0d9488", "status": "403", "error": "Blocked" }
+      ]
+    },
+    {
+      "id": "hawkins",
+      "name": "John Hawkins",
+      "credentials": "MD",
+      "specialty": "Cardiology",
+      "subspecialty": "Interventional Cardiology",
+      "city": "Macon",
+      "state": "Georgia",
+      "stateCode": "GA",
+      "education": [
+        { "type": "Medical School", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1977, "source": "Doximity" },
+        { "type": "Residency", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1980, "source": "Doximity" },
+        { "type": "Fellowship", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1982, "source": "Doximity" }
+      ],
+      "experience": {
+        "yearsInPractice": 44,
+        "clinicalFocus": "Cardiology, Interventional Cardiology, Adult Congenital Heart Disease, Cardiac Electrophysiology",
+        "affiliation": "Atrium Health Navicent Medical Center, Macon, GA",
+        "credentials": "Board certified in Internal Medicine and Cardiovascular Disease (ABIM)",
+        "summary": "Associate Professor at Mercer University School of Medicine. 40+ years of practice specializing in interventional cardiology, valvular heart disease, cardiac catheterization, and ICD/pacemaker insertion.",
+        "sources": ["Doximity", "Healthgrades"]
+      },
+      "reviews": {
+        "rating": 4.4,
+        "reviewCount": null,
+        "reviewSources": ["Healthgrades"],
+        "viewMoreUrl": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk",
+        "quotes": []
+      },
+      "sources": [
+        { "name": "Doximity",    "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d",       "color": "#3b82f6", "status": "200", "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk", "color": "#f59e0b", "status": "200", "error": null },
+        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_John_C_Hawkins.html",        "color": "#ef4444", "status": "200", "error": null },
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                              "color": "#8b5cf6", "status": "200", "error": null },
+        { "name": "US News",     "url": "https://health.usnews.com/doctors/john-hawkins-402774",        "color": "#0d9488", "status": "200", "error": null }
+      ]
+    }
+  ]
+}
