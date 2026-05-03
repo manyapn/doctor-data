@@ -1,115 +1,295 @@
 {
-  "collected_at": "2026-05-03T12:00:00.000Z",
+  "collected_at": "2026-05-03T19:12:55.154Z",
   "doctors": [
     {
       "id": "golive",
       "name": "Anjani Golive",
-      "credentials": "MD",
-      "specialty": "Cardiology",
-      "subspecialty": "Interventional Cardiology",
-      "city": "Thousand Oaks",
+      "credentials": "M.D.",
+      "specialty": "Cardiovascular Disease",
+      "taxonomy": "Internal Medicine, Cardiovascular Disease",
+      "subspecialty": null,
+      "city": "Modesto",
       "state": "California",
       "stateCode": "CA",
       "education": [
-        { "type": "Residency", "school": "Montefiore Medical Center / Albert Einstein College of Medicine", "location": "New York, NY", "year": null, "source": "Healthgrades" },
-        { "type": "Fellowship", "school": "Ochsner Clinic Foundation, Heart & Vascular Institute", "location": "New Orleans, LA", "year": null, "source": "Healthgrades" },
-        { "type": "Fellowship", "school": "Albert Einstein College of Medicine", "location": "Bronx, NY", "year": null, "source": "Healthgrades" },
-        { "type": "Fellowship", "school": "LAC-USC Los Angeles General Hospital", "location": "Los Angeles, CA", "year": null, "source": "Healthgrades" }
+        {
+          "type": "Medical School",
+          "school": "Andhra Medical College NTR",
+          "location": "",
+          "year": 2007,
+          "source": "Doximity"
+        },
+        {
+          "type": "Residency",
+          "school": "Westchester Medical Center",
+          "location": "",
+          "year": 2014,
+          "source": "Doximity"
+        }
       ],
       "experience": {
-        "yearsInPractice": null,
-        "clinicalFocus": "Cardiology, Interventional Cardiology, Advanced Cardiac Imaging, Echocardiography",
-        "affiliation": "Los Robles Regional Medical Center, Thousand Oaks, CA",
-        "credentials": "Board certified in Internal Medicine and Cardiovascular Disease (ABIM)",
-        "summary": "Fellowship-trained cardiologist specializing in noninvasive cardiology, advanced cardiac imaging, and interventional procedures. Experienced in heart transplant support and mechanical circulatory support including LVADs.",
-        "sources": ["Healthgrades", "Doximity"]
+        "yearsInPractice": 19,
+        "clinicalFocus": "Cardiovascular Disease",
+        "affiliation": "Doctors Medical Center Of Modesto, Kaiser Permanente Modesto Medical Center, Los Robles Regional Medical Center, Ochsner Medical Center and Sutter Health Memorial Medical Center",
+        "credentials": "M.D.",
+        "summary": "Dr Anjani D. Golive, MD is a health care provider primarily located in Modesto, CA. They graduated from medical school in 2007 and have 20 years of experience. Their specialties include Cardiovascular Disease. Dr Golive is affiliated with Doctors Medical Center Of Modesto, Kaiser Permanente Modesto Medical Center, Los Robles Regional Medical Center, Ochsner Medical Center and Sutter Health Memorial Medical Center.",
+        "summarySource": {
+          "source": "Vitals",
+          "url": "https://www.vitals.com/doctors/Dr_Anjani_Golive.html"
+        },
+        "fieldSources": {
+          "yearsInPractice": {
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/anjani-golive-md"
+          },
+          "clinicalFocus": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Anjani&last_name=Golive&state=CA&limit=1"
+          },
+          "credentials": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Anjani&last_name=Golive&state=CA&limit=1"
+          },
+          "affiliation": {
+            "source": "Vitals",
+            "url": "https://www.vitals.com/doctors/Dr_Anjani_Golive.html"
+          }
+        },
+        "sources": ["Doximity", "Healthgrades", "Vitals"]
       },
       "reviews": {
-        "rating": null,
-        "reviewCount": null,
-        "reviewSources": [],
+        "rating": 5,
+        "reviewCount": 1,
+        "reviewSources": ["Healthgrades"],
+        "ratings": [
+          {
+            "source": "Healthgrades",
+            "rating": 5,
+            "url": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv",
+            "color": "#f59e0b"
+          }
+        ],
         "viewMoreUrl": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv",
         "quotes": []
       },
+      "research": {
+        "publications": [
+          {
+            "title": "Degenerative Mitral Stenosis-Diagnostic Challenges and Future Directions.",
+            "details": "Abdulaziz Joury, Christopher Puleo, Anjani Golive, Yvonne Gilliland, Gregg S Pressman | Reviews in Cardiovascular Medicine. 2022-10-01",
+            "type": "PubMed",
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/anjani-golive-md",
+            "color": "#3b82f6"
+          }
+        ]
+      },
       "sources": [
-        { "name": "Doximity",    "url": "https://www.doximity.com/pub/anjani-golive-md",               "color": "#3b82f6", "status": "200", "error": null },
-        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv", "color": "#f59e0b", "status": "200", "error": null },
-        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_Anjani_Golive.html",          "color": "#ef4444", "status": "200", "error": null },
-        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                               "color": "#8b5cf6", "status": "200", "error": null },
-        { "name": "US News",     "url": "https://health.usnews.com/doctors/anjani-golive-871683",         "color": "#0d9488", "status": "403", "error": "Blocked" }
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Anjani&last_name=Golive&state=CA&limit=1", "color": "#8b5cf6", "status": "200",   "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-anjani-golive-w3pdv",                                         "color": "#f59e0b", "status": "200",   "error": null },
+        { "name": "Doximity",   "url": "https://www.doximity.com/pub/anjani-golive-md",                                                          "color": "#3b82f6", "status": "200",   "error": null },
+        { "name": "Vitals",     "url": "https://www.vitals.com/doctors/Dr_Anjani_Golive.html",                                                   "color": "#ef4444", "status": "200",   "error": null },
+        { "name": "US News",    "url": "https://health.usnews.com/doctors/anjani-golive-871683",                                                  "color": "#0d9488", "status": "error", "error": "Connection refused" }
       ]
     },
     {
       "id": "marin",
       "name": "Jose Marin",
-      "credentials": "MD",
+      "credentials": "M.D.",
       "specialty": "Family Medicine",
-      "subspecialty": "Primary Care",
+      "taxonomy": "Family Medicine",
+      "subspecialty": null,
       "city": "El Paso",
       "state": "Texas",
       "stateCode": "TX",
       "education": [
-        { "type": "Medical School", "school": "Universidad Autonoma de Ciudad Juarez", "location": "Ciudad Juarez, Mexico", "year": null, "source": "Healthgrades" },
-        { "type": "Residency", "school": "Mayaguez Medical Center", "location": "Mayaguez, Puerto Rico", "year": null, "source": "Healthgrades" }
+        {
+          "type": "Medical School",
+          "school": "Universidad Autonoma de Ciudad Juarez",
+          "location": "",
+          "year": 1992,
+          "source": "Doximity"
+        },
+        {
+          "type": "Residency",
+          "school": "Dr Ramon E Betances Hospital - Mayaguez Medical Center",
+          "location": "",
+          "year": 2015,
+          "source": "Doximity"
+        }
       ],
       "experience": {
-        "yearsInPractice": 20,
-        "clinicalFocus": "Family Medicine, Primary Care, Diabetes, Hypertension, Kidney Disease",
-        "affiliation": "Transmountain Primary Care / WellMed, El Paso, TX",
-        "credentials": "Board certified in Family Medicine",
-        "summary": "Bilingual family medicine physician in El Paso. Founded Transmountain Primary Care in 2017. Affiliated with Hospitals of Providence and University Medical Center of El Paso.",
-        "sources": ["Healthgrades", "Doximity"]
+        "yearsInPractice": 34,
+        "clinicalFocus": "Family Medicine",
+        "affiliation": null,
+        "credentials": "M.D.",
+        "summary": "Dr Jose A Marin has more than 25 years of experience in Medicine. Graduated from Universidad Autonoma de Ciudad Juarez, Mexico. Completed a specialty in General and Gastrointestinal Surgery in Monterrey, NL Mexico in 1999, serving the El Paso-Juarez area. Also completed a Residency in the U.S., currently serving as a Primary Care Physician in El Paso, Horizon, Socorro, Clint, and Ysleta.",
+        "summarySource": {
+          "source": "Doximity",
+          "url": "https://www.doximity.com/pub/jose-marin-md-151e"
+        },
+        "fieldSources": {
+          "yearsInPractice": {
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/jose-marin-md-151e"
+          },
+          "clinicalFocus": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Jose&last_name=Marin&state=TX&limit=1"
+          },
+          "credentials": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Jose&last_name=Marin&state=TX&limit=1"
+          }
+        },
+        "sources": ["Doximity", "Healthgrades"]
       },
       "reviews": {
-        "rating": null,
-        "reviewCount": null,
-        "reviewSources": [],
+        "rating": 5,
+        "reviewCount": 4,
+        "reviewSources": ["Healthgrades"],
+        "ratings": [
+          {
+            "source": "Healthgrades",
+            "rating": 5,
+            "url": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz",
+            "color": "#f59e0b"
+          }
+        ],
         "viewMoreUrl": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz",
         "quotes": []
       },
+      "research": {
+        "publications": [
+          {
+            "title": "Cancer of the colon and rectum: morbi-mortality and recurrence patterns",
+            "details": "Lopez-B G MD, Marin J MD | Cirujano General, 1997",
+            "type": "Journal Articles",
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/jose-marin-md-151e",
+            "color": "#3b82f6"
+          },
+          {
+            "title": "Extended Care Clinic: Experience of one year",
+            "details": "Marin J, MD | Puerto Rico Academy of Family Medicine, 2015",
+            "type": "Abstracts/Posters",
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/jose-marin-md-151e",
+            "color": "#3b82f6"
+          },
+          {
+            "title": "Transitional Care: Early post-discharge follow up and re-hospitalization rate in high-risk population",
+            "details": "Marin J, MD | Ponce School of Medicine Annual Meeting, 2014",
+            "type": "Abstracts/Posters",
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/jose-marin-md-151e",
+            "color": "#3b82f6"
+          },
+          {
+            "title": "Diabetes mellitus: Epidemiological Analysis of a Western Puerto Rico Population",
+            "details": "San Juan, Puerto Rico, 2014",
+            "type": "Lectures",
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/jose-marin-md-151e",
+            "color": "#3b82f6"
+          }
+        ]
+      },
       "sources": [
-        { "name": "Doximity",    "url": "https://www.doximity.com/pub/jose-marin-md-151e",           "color": "#3b82f6", "status": "200", "error": null },
-        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz", "color": "#f59e0b", "status": "200", "error": null },
-        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_Jose_Marin.html",          "color": "#ef4444", "status": "200", "error": null },
-        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                            "color": "#8b5cf6", "status": "200", "error": null },
-        { "name": "US News",     "url": "https://health.usnews.com/doctors/jose-marin-1010190",       "color": "#0d9488", "status": "403", "error": "Blocked" }
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=Jose&last_name=Marin&state=TX&limit=1", "color": "#8b5cf6", "status": "200",   "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-jose-marin-ci8fz",                                        "color": "#f59e0b", "status": "200",   "error": null },
+        { "name": "Doximity",   "url": "https://www.doximity.com/pub/jose-marin-md-151e",                                                    "color": "#3b82f6", "status": "200",   "error": null },
+        { "name": "Vitals",     "url": "https://www.vitals.com/doctors/Dr_Jose_Marin.html",                                                  "color": "#ef4444", "status": "403",   "error": "Blocked" },
+        { "name": "US News",    "url": "https://health.usnews.com/doctors/jose-marin-1010190",                                               "color": "#0d9488", "status": "error", "error": "Connection refused" }
       ]
     },
     {
       "id": "hawkins",
       "name": "John Hawkins",
-      "credentials": "MD",
-      "specialty": "Cardiology",
-      "subspecialty": "Interventional Cardiology",
+      "credentials": "M.D.",
+      "specialty": "Cardiovascular Disease",
+      "taxonomy": "Internal Medicine, Cardiovascular Disease",
+      "subspecialty": null,
       "city": "Macon",
       "state": "Georgia",
       "stateCode": "GA",
       "education": [
-        { "type": "Medical School", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1977, "source": "Doximity" },
-        { "type": "Residency", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1980, "source": "Doximity" },
-        { "type": "Fellowship", "school": "Medical College of Georgia", "location": "Augusta, GA", "year": 1982, "source": "Doximity" }
+        {
+          "type": "Medical School",
+          "school": "Medical College of Georgia at Augusta University",
+          "location": "",
+          "year": 1977,
+          "source": "Doximity"
+        },
+        {
+          "type": "Residency",
+          "school": "Medical College of Georgia",
+          "location": "",
+          "year": 1980,
+          "source": "Doximity"
+        },
+        {
+          "type": "Fellowship",
+          "school": "Medical College of Georgia",
+          "location": "",
+          "year": 1982,
+          "source": "Doximity"
+        }
       ],
       "experience": {
-        "yearsInPractice": 44,
-        "clinicalFocus": "Cardiology, Interventional Cardiology, Adult Congenital Heart Disease, Cardiac Electrophysiology",
-        "affiliation": "Atrium Health Navicent Medical Center, Macon, GA",
-        "credentials": "Board certified in Internal Medicine and Cardiovascular Disease (ABIM)",
-        "summary": "Associate Professor at Mercer University School of Medicine. 40+ years of practice specializing in interventional cardiology, valvular heart disease, cardiac catheterization, and ICD/pacemaker insertion.",
+        "yearsInPractice": 49,
+        "clinicalFocus": "Cardiovascular Disease",
+        "affiliation": "Medical Center, Navicent Health",
+        "credentials": "M.D.",
+        "summary": "Dr. John Hawkins is a cardiologist in Macon, GA and is affiliated with Medical Center, Navicent Health. He received his medical degree from Medical College of Georgia School of Medicine and has been in practice for over 40 years. He specializes in adult congenital heart disease and cardiac electrophysiology and is experienced in valvular heart disease, interventional cardiology, cardiac catheterization, minimally invasive cardiac surgery, and ICD/pacemaker insertion.",
+        "summarySource": {
+          "source": "Doximity",
+          "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d"
+        },
+        "fieldSources": {
+          "yearsInPractice": {
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d"
+          },
+          "clinicalFocus": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=John&last_name=Hawkins&state=GA&city=Macon&limit=1"
+          },
+          "credentials": {
+            "source": "NPPES",
+            "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=John&last_name=Hawkins&state=GA&city=Macon&limit=1"
+          },
+          "affiliation": {
+            "source": "Doximity",
+            "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d"
+          }
+        },
         "sources": ["Doximity", "Healthgrades"]
       },
       "reviews": {
         "rating": 4.4,
-        "reviewCount": null,
+        "reviewCount": 12,
         "reviewSources": ["Healthgrades"],
+        "ratings": [
+          {
+            "source": "Healthgrades",
+            "rating": 4.4,
+            "url": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk",
+            "color": "#f59e0b"
+          }
+        ],
         "viewMoreUrl": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk",
         "quotes": []
       },
+      "research": {
+        "publications": []
+      },
       "sources": [
-        { "name": "Doximity",    "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d",       "color": "#3b82f6", "status": "200", "error": null },
-        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk", "color": "#f59e0b", "status": "200", "error": null },
-        { "name": "Vitals",      "url": "https://www.vitals.com/doctors/Dr_John_C_Hawkins.html",        "color": "#ef4444", "status": "200", "error": null },
-        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov",                              "color": "#8b5cf6", "status": "200", "error": null },
-        { "name": "US News",     "url": "https://health.usnews.com/doctors/john-hawkins-402774",        "color": "#0d9488", "status": "200", "error": null }
+        { "name": "NPPES",       "url": "https://npiregistry.cms.hhs.gov/api/?version=2.1&first_name=John&last_name=Hawkins&state=GA&city=Macon&limit=1", "color": "#8b5cf6", "status": "200",   "error": null },
+        { "name": "Healthgrades","url": "https://www.healthgrades.com/physician/dr-john-hawkins-3gjyk",                                                  "color": "#f59e0b", "status": "200",   "error": null },
+        { "name": "Doximity",   "url": "https://www.doximity.com/pub/john-hawkins-md-bb98194d",                                                          "color": "#3b82f6", "status": "200",   "error": null },
+        { "name": "Vitals",     "url": "https://www.vitals.com/doctors/Dr_John_C_Hawkins.html",                                                          "color": "#ef4444", "status": "403",   "error": "Blocked" },
+        { "name": "US News",    "url": "https://health.usnews.com/doctors/john-hawkins-402774",                                                           "color": "#0d9488", "status": "error", "error": "Connection refused" }
       ]
     }
   ]
