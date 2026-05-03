@@ -69,6 +69,9 @@ Shared source configuration lives in `scraper/config.js`.
 - US News blocks this environment. Direct Axios, curl, Node HTTPS, and Playwright tests failed with 403, timeout, reset, or HTTP/2 protocol errors.
 - Vitals is inconsistent. Golive may load, while Marin and Hawkins often return 403.
 - Doximity public pages expose only partial profile data unless logged in as a verified healthcare professional.
+- Education years come from Doximity when available. Healthgrades lists training history but frequently omits graduation years.
+- NPI lookups use name + state, which can misfire on common names. A production system would use NPI number as the primary key.
+Review ratings reflect a single scrape — no staleness tracking or incremental updates.
 - Research scraping is intentionally conservative. It uses visible Doximity publication and presentation text and does not attempt to infer authorship from hidden or truncated records.
 - This is a short case-study project, not a production medical data pipeline.
 ## Scaling to 1,000+ doctors
